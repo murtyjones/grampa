@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "target": "es2015",
+    "lib": [
+      "es2020",
+    ],
+    "module": "CommonJS",
+    "strict": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "removeComments": false,
+    "noImplicitAny": true,
+    "outDir": "lib",
+    "declaration": true,
+    "declarationMap": true,
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
