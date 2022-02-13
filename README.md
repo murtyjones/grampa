@@ -33,3 +33,8 @@ npx eslint --format grampa --quiet --fix './src/**/*.{js,jsx,ts,tsx}'
 Then run `git diff` and see what's changed.
 
 You might need to run `eslint --fix` again if you have a code formatter enabled, to ensure that the new `// eslint-disable` comments have appropriate indentation.
+
+⚠️ **Warnings**:
+1. You should review the diff carefully before committing it
+1. `grampa` may run slowly on larger codebases with lots of lint errors
+1. `grampa` hasn't yet been tested on Windows/Linux systems
