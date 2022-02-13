@@ -27,7 +27,7 @@ npx eslint --quiet --fix './src/**/*.{js,jsx,ts,tsx}'
 Then, use `grampa` to update all of the remaining errors with `// eslint-disable` comments (but be sure you have no unstaged/uncommitted changes because `grampa` will edit a bunch of your local files):
 
 ```
-npx eslint --format grampa --quiet --fix './src/**/*.{js,jsx}'
+npx eslint --format grampa --quiet --fix './src/**/*.{js,jsx,ts,tsx}'
 ```
 
 Then run `git diff` and see what's changed.
