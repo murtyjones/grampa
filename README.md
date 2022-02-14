@@ -1,6 +1,6 @@
 # `grampa`
 
-When adding eslint to an exiting project, you'll usually find that there are a lot of errors to fix. Depending on the size of your project, you might even have thousands of linting errors.
+When adding eslint to an existing project, you'll usually find that there are a lot of errors to fix. Depending on the size of your project, you might even have thousands of linting errors.
 
 You're a busy developer and you don't have time to make thousands of lint changes right now and then test everything to be sure that your app hasn't broken.
 
